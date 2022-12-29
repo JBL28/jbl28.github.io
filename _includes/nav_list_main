@@ -23,7 +23,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
+         </li>
+         
          <span class="nav__sub-title">development</span>
             <ul>
                 {% for category in site.categories %}
