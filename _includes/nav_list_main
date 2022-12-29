@@ -12,14 +12,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Coding" %}
-                        <li><a href="/categories/coding" class="">Blog Dev({{category[1].size}})</a></li>
+                        <li><a href="/categories/coding" class="">코딩 연습({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">Blog Dev({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">알고리즘 연습({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -29,14 +29,21 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
+                        <li><a href="/categories/blog" class="">블로그 개발({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Projects" %}
-                        <li><a href="/categories/projects" class="">Blog Dev({{category[1].size}})</a></li>
+                        <li><a href="/categories/projects" class="">개인 프로젝트({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Projects" %}
+                        <li><a href="/categories/projects" class="">냐옹({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
