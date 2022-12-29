@@ -1,0 +1,26 @@
+---
+title:  "포스트 양식" 
+excerpt: "포스트 양식"
+
+categories:
+  - Blog
+tags:
+  - [Blog, Git, Github,]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-12-26
+last_modified_at: 2022-12-26
+
+---
+
+
+# 포스트 양식입니다.
+>각주
+```cpp
+코드
+```
+_이텔릭 *이텔릭
+__두껍게 **두껍게
+__*두꺼운 이텔릭 **_두꺼운 
