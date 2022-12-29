@@ -1,5 +1,5 @@
 ---
-title: "알고리즘 공부"
+title: "알고리즘 공부하기"
 layout: archive
 permalink: categories/algorithm
 author_profile: true
