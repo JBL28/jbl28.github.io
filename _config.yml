@@ -21,9 +21,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "정복"
 description              : "코딩연구소, 정복"
-url                      : "https://jbl28.github.io"
+url                      : "https://JBL28.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "jbl28/comments" #댓글 경로 / github name/repository
+repository               : "JBL28/jbl28.comments" #댓글 경로 / github name/repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # 타이틀 옆 로고
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
