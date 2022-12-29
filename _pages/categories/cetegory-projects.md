@@ -1,5 +1,5 @@
 ---
-title: "개인 프로젝트 진행하기"
+title: "게인 프로젝트 진행하기"
 layout: archive
 permalink: categories/projects
 author_profile: true
