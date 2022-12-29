@@ -12,39 +12,34 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Coding" %}
-                        <li><a href="/categories/coding" class="">코딩 연습({{category[1].size}})</a></li>
+                        <li><a href="/categories/coding" class="">Blog Dev({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-             <ul>
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 공부({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">Blog Dev({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-       </li>
-       <li>
-         <span class="nav__sub-title">development</span>
+      </li>
+      <li>
+        <span class="nav__sub-title">development</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">블로그 관리({{category[1].size}})</a></li>
+                        <li><a href="/categories/blog" class="">Blog Dev({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Projects" %}
-                        <li><a href="/categories/projects" class="">개인 프로젝트({{category[1].size}})</a></li>
+                        <li><a href="/categories/projects" class="">Blog Dev({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            
-      </li>
-      <li>	
-            <br>      
-            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fheoni00.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
       </li>
   </ul>
 </nav>
