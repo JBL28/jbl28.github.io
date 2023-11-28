@@ -40,6 +40,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Projects" %}
+                        <li><a href="/categories/projects" class="">2023_정보검색_악기검색페이지({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
       <span class="nav__sub-title">language</span>
             <ul>
