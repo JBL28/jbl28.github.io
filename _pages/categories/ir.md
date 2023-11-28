@@ -1,7 +1,7 @@
 ---
 title: "IR 실습_악기검색페이지"
 layout: archive
-permalink: categories/ir
+permalink: categories/Ir
 author_profile: true
 sidebar_main: true
 ---
