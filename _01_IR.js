@@ -12,7 +12,7 @@ function search(){
 }
 
 function search_on_naver(sValue) {
-    location.href = `IR_Result.html?query=${sValue}`
+    location.href = `_01_IR_Result.html?query=${sValue}`
 }
 
 function init() {
