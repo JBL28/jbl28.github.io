@@ -1,7 +1,7 @@
 ---
 title: "IR 실습_악기검색페이지"
 layout: archive
-permalink: categories/IR_Practice
+permalink: categories/ir
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.IR_Practice %}
+{% assign posts = site.categories.ir %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
